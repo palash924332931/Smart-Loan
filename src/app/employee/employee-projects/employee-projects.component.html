@@ -1,0 +1,7 @@
+<ng-content></ng-content>
+<p>employee Id : {{selectedEmp?.id}}</p>
+<p>employee-name: {{selectedEmp?.name}}</p>
+<ng-content select="[publicData]"></ng-content>
+
+<button (click)="updateEmployee(selectedEmp)">Update Emplyee</button>
+<ng-content select ="[notice]"></ng-content>
