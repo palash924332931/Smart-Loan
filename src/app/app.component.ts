@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'demo-angular';
   public topicName = "Angular Session"
+  status: boolean = false;
+  clickEvent(){
+      this.status = !this.status;
+  }
 }

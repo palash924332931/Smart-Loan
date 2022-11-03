@@ -14,6 +14,7 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { BtableComponent } from './components/btable/btable.component';
 import { FormbuilderComponent } from './FormBuilder/formbuilder/formbuilder.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NormalRegistrationComponent } from './normal-registration/normal-registration.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     CapitalizedPipe,
     ReactiveFormComponent,
     BtableComponent,
-    FormbuilderComponent
+    FormbuilderComponent,
+    NormalRegistrationComponent
   ],
   imports: [
     BrowserModule,
