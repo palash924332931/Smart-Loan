@@ -3,9 +3,13 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\Pipes",
-    "\\src\\app\\reactive-form"
+    "\\src\\app\\components",
+    "\\src\\app\\components\\btable",
+    "\\src\\app\\employee\\employee-projects",
+    "\\src\\app\\FormBuilder\\formbuilder",
+    "\\src\\environments",
+    "\\src\\services"
   ],
-  "SelectedNode": "\\src\\app\\app.component.html",
+  "SelectedNode": "\\src\\services\\registration.service.ts",
   "PreviewInSolutionExplorer": false
 }

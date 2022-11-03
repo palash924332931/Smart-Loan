@@ -11,6 +11,9 @@ import { LoginTestComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CapitalizedPipe } from './Pipes/capitalized.pipe';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { BtableComponent } from './components/btable/btable.component';
+import { FormbuilderComponent } from './FormBuilder/formbuilder/formbuilder.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
     EmployeeProjectsComponent,
     LoginTestComponent,
     CapitalizedPipe,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    BtableComponent,
+    FormbuilderComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
     NgbPaginationModule, NgbAlertModule,
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

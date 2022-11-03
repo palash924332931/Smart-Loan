@@ -1,0 +1,22 @@
+<p>Table is just a mapping of objects to table rows with <code>ngFor</code></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of postsData; index as i">
+      <th scope="row">{{ post.id }}</th>      
+      <td>{{ post.title }}</td>
+      <td><button class="btn btn-success" (click)="viewDetails(post.id )">View Details</button></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<button class="btn btn-success" (click)="savePost()">Post Data</button>
+<button class="btn btn-success" (click)="putPost()">Put Data</button>
