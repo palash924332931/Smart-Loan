@@ -1,3 +1,4 @@
+import { NormalRegistrationComponent } from './normal-registration/normal-registration.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BtableComponent } from './components/btable/btable.component';
@@ -9,7 +10,7 @@ const routes: Routes = [
     path: 'form',
     children: [
       { path: 'reacative-form', component: ReactiveFormComponent, pathMatch:'full' },
-      { path: 'normal-form', component: ReactiveFormComponent}
+      { path: 'normal-form', component: NormalRegistrationComponent}
       ]
   },
   { path: 'registration', component: RegistrationComponent },
